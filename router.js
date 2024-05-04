@@ -1,9 +1,9 @@
 // crear rutas, invocamos espress
-const express = require('express');
+const express  = require('express');
 // creamos una constante router
-const router=express.Router();
+const router   = express.Router();
 // invocamos el archivo de conexion, sin la extension del archivo
-const conexion=require('./database/db')
+const conexion = require('./database/db')
 
 // usamos la const route, para imprimir en el navegador
 router.get('/', (req,res)=>{
